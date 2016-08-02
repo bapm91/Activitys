@@ -7,9 +7,8 @@
     <dimen name="account">18sp</dimen>
     <dimen name="icon">50dp</dimen>
     <dimen name="icon_prof">30dp</dimen>
-    <dimen name="icon_margine">10dp</dimen>
+    <dimen name="icon_margin">10dp</dimen>
     <dimen name="edit_text">25dp</dimen>
     <dimen name="top">40dp</dimen>
-    <dimen name="edit_top">32</dimen>
     <dimen name="sing_up">15sp</dimen>
 </resources>
