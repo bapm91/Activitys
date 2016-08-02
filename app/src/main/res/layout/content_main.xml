@@ -102,7 +102,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/top"
         android:layout_below="@+id/profile_name"
-        android:elevation="5dp"
         android:background="@drawable/oval"
         android:textColor="@color/white"
         android:textSize="@dimen/sing_up"
