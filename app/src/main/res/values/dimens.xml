@@ -3,4 +3,13 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="have_account">20dp</dimen>
+    <dimen name="account">18sp</dimen>
+    <dimen name="icon">50dp</dimen>
+    <dimen name="icon_prof">30dp</dimen>
+    <dimen name="icon_margine">10dp</dimen>
+    <dimen name="edit_text">25dp</dimen>
+    <dimen name="top">40dp</dimen>
+    <dimen name="edit_top">32</dimen>
+    <dimen name="sing_up">15sp</dimen>
 </resources>

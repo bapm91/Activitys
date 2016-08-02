@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Activitys</string>
     <string name="action_settings">Settings</string>
+    <string name="have_account">Have an account already?</string>
+    <string name="first_activity">Sing Up</string>
+    <string name="username">Username</string>
+    <string name="profile">Profile name</string>
+    <string name="pass">Password</string>
+    <string name="email">Email</string>
+    <string name="sing_up">SING UP</string>
 </resources>
