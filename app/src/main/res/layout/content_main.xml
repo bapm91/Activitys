@@ -14,11 +14,11 @@
     tools:showIn="@layout/activity_main">
 
     <ImageView
+        android:id="@+id/image_username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/top"
         android:padding="@dimen/icon_margin"
-        android:id="@+id/image_username"
         android:src="@drawable/ic_image_timer_auto"
         />
 
@@ -26,75 +26,71 @@
         android:id="@+id/edit_text_user"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/image_username"
-        android:layout_marginLeft="@dimen/edit_text"
         android:layout_alignTop="@+id/image_username"
+        android:layout_marginLeft="@dimen/edit_text"
+        android:layout_toRightOf="@+id/image_username"
         android:hint="@string/username"
         android:theme="@style/EditText"
-        android:textColor="@color/gray"
         />
 
     <ImageView
+        android:id="@+id/image_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="@dimen/icon_margin"
-        android:id="@+id/image_email"
         android:layout_below="@+id/image_username"
+        android:padding="@dimen/icon_margin"
         android:src="@drawable/ic_content_mail"
         />
 
     <EditText
         android:id="@+id/edit_text_email"
         android:layout_width="match_parent"
-        android:layout_toRightOf="@+id/image_username"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/edit_text_user"
         android:layout_marginLeft="@dimen/edit_text"
-        android:theme="@style/EditText"
+        android:layout_toRightOf="@+id/image_username"
         android:hint="@string/email"
-        android:textColor="@color/gray"
-        android:layout_height="wrap_content"
+        android:theme="@style/EditText"
         />
 
     <ImageView
+        android:id="@+id/image_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="@dimen/icon_margin"
-        android:id="@+id/image_password"
         android:layout_below="@+id/image_email"
+        android:padding="@dimen/icon_margin"
         android:src="@drawable/ic_action_lock"
         />
 
     <EditText
         android:id="@+id/edit_text_pass"
         android:layout_width="match_parent"
-        android:layout_toRightOf="@+id/image_username"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/edit_text_email"
         android:layout_marginLeft="@dimen/edit_text"
-        android:theme="@style/EditText"
+        android:layout_toRightOf="@+id/image_username"
         android:hint="@string/pass"
-        android:textColor="@color/gray"
-        android:layout_height="wrap_content"
+        android:theme="@style/EditText"
         />
 
     <ImageView
+        android:id="@+id/image_profile_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="@dimen/icon_margin"
-        android:id="@+id/image_profile_name"
         android:layout_below="@+id/image_password"
+        android:padding="@dimen/icon_margin"
         android:src="@drawable/ic_action_account_box"
         />
 
     <EditText
         android:id="@+id/edit_text_profile"
         android:layout_width="match_parent"
-        android:layout_toRightOf="@+id/image_profile_name"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/edit_text_pass"
         android:layout_marginLeft="@dimen/edit_text"
-        android:theme="@style/EditText"
+        android:layout_toRightOf="@+id/image_profile_name"
         android:hint="@string/profile"
-        android:textColor="@color/gray"
-        android:layout_height="wrap_content"
+        android:theme="@style/EditText"
         />
 
 
@@ -102,12 +98,12 @@
         android:id="@+id/button_sing_up"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/top"
         android:layout_below="@+id/image_profile_name"
+        android:layout_marginTop="@dimen/top"
         android:background="@drawable/oval"
+        android:text="@string/sing_up"
         android:textColor="@color/white"
         android:textSize="@dimen/sing_up"
-        android:text="@string/sing_up"
         />
 
     <TextView
