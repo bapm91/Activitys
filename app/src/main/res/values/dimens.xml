@@ -25,7 +25,7 @@
     <dimen name="icon_profile_name_width">40dp</dimen>
     <dimen name="icon_profile_name_height">38dp</dimen>
     <dimen name="icon_margin_bottom">9dp</dimen>
-    <dimen name="edit_text_margin_bottom">5dp</dimen>
+    <dimen name="edit_text_margin_bottom">0dp</dimen>
     <dimen name="icon_margin_left">-7dp</dimen>
     <dimen name="edit_text_margin_top">23dp</dimen>
 </resources>
