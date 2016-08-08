@@ -18,6 +18,11 @@
         <item name="android:textSize">@dimen/button_sing_up</item>
     </style>
 
+    <style name="ImageView">
+        <item name="android:padding">@dimen/icon_padding</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
     <style name="TextViewHaveAlreadyAccount">
         <item name="android:textColor">@color/colorPrimary</item>
         <item name="android:textSize">@dimen/have_already_account</item>
@@ -29,7 +34,7 @@
         <item name="colorControlActivated">@color/colorPrimary</item>
         <item name="android:textColorHint">@color/gray</item>
         <item name="android:thumbTextPadding">@dimen/edit_text_padding</item>
-        <item name="android:textSize">@dimen/account</item>
+        <item name="android:textSize">@dimen/edit_text_size</item>
         <item name="android:singleLine">true</item>
     </style>
 

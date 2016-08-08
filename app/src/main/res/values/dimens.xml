@@ -5,7 +5,7 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="have_already_account_margin">14dp</dimen>
     <dimen name="have_already_account">16sp</dimen>
-    <dimen name="account">16sp</dimen>
+    <dimen name="edit_text_size">16sp</dimen>
     <dimen name="icon">50dp</dimen>
     <dimen name="icon_prof">30dp</dimen>
     <dimen name="icon_padding">10dp</dimen>
@@ -28,4 +28,5 @@
     <dimen name="edit_text_margin_bottom">0dp</dimen>
     <dimen name="icon_margin_left">-7dp</dimen>
     <dimen name="edit_text_margin_top">23dp</dimen>
+    <dimen name="edit_text_padding_bottom">16dp</dimen>
 </resources>
