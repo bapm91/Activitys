@@ -12,107 +12,107 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.user.kulynych.slava.activitys.MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:showIn="@layout/activity_main_task_one">
 
     <ImageView
         android:id="@+id/image_username"
+        style="@style/ImageView"
         android:layout_width="@dimen/icon_username_width"
         android:layout_height="@dimen/icon_username_height"
         android:layout_marginBottom="@dimen/icon_margin_bottom"
         android:layout_marginLeft="@dimen/icon_margin_left"
         android:layout_marginTop="@dimen/icon_margin_top"
-        android:src="@drawable/ic_image_timer_auto"
-        style="@style/ImageView"/>
+        android:src="@drawable/ic_image_timer_auto"/>
 
     <EditText
         android:id="@+id/edit_text_user"
+        style="@style/EditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/edit_text_margin_left"
         android:layout_marginTop="@dimen/edit_text_margin_top"
         android:layout_toRightOf="@+id/image_username"
         android:hint="@string/username"
-        android:paddingBottom="@dimen/edit_text_padding_bottom"
-        style="@style/EditText"/>
+        android:paddingBottom="@dimen/edit_text_padding_bottom"/>
 
     <ImageView
         android:id="@+id/image_email"
+        style="@style/ImageView"
         android:layout_width="@dimen/icon_email_width"
         android:layout_height="@dimen/icon_email_height"
         android:layout_below="@+id/image_username"
         android:layout_marginBottom="@dimen/icon_margin_bottom"
         android:layout_marginLeft="@dimen/icon_margin_left"
-        android:src="@drawable/ic_content_mail"
-        style="@style/ImageView"/>
+        android:src="@drawable/ic_content_mail"/>
 
     <EditText
         android:id="@+id/edit_text_email"
+        style="@style/EditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/edit_text_user"
         android:layout_marginLeft="@dimen/edit_text_margin_left"
         android:layout_toRightOf="@+id/image_username"
         android:hint="@string/email"
-        android:paddingBottom="@dimen/edit_text_padding_bottom"
-        style="@style/EditText"/>
+        android:paddingBottom="@dimen/edit_text_padding_bottom"/>
 
     <ImageView
         android:id="@+id/image_password"
+        style="@style/ImageView"
         android:layout_width="@dimen/icon_password_width"
         android:layout_height="@dimen/icon_password_height"
         android:layout_below="@+id/image_email"
         android:layout_marginBottom="@dimen/icon_margin_bottom"
         android:layout_marginLeft="@dimen/icon_margin_left"
-        android:src="@drawable/ic_action_lock"
-        style="@style/ImageView"/>
+        android:src="@drawable/ic_action_lock"/>
 
     <EditText
         android:id="@+id/edit_text_pass"
+        style="@style/EditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/edit_text_email"
         android:layout_marginLeft="@dimen/edit_text_margin_left"
         android:layout_toRightOf="@+id/image_username"
         android:hint="@string/pass"
-        android:paddingBottom="@dimen/edit_text_padding_bottom"
-        style="@style/EditText"/>
+        android:paddingBottom="@dimen/edit_text_padding_bottom"/>
 
     <ImageView
         android:id="@+id/image_profile_name"
+        style="@style/ImageView"
         android:layout_width="@dimen/icon_profile_name_width"
         android:layout_height="@dimen/icon_profile_name_height"
         android:layout_below="@+id/image_password"
         android:layout_marginLeft="@dimen/icon_margin_left"
-        android:src="@drawable/ic_action_account_box"
-        style="@style/ImageView"/>
+        android:src="@drawable/ic_action_account_box"/>
 
     <EditText
         android:id="@+id/edit_text_profile"
+        style="@style/EditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/edit_text_pass"
         android:layout_marginLeft="@dimen/edit_text_margin_left"
         android:layout_toRightOf="@+id/image_profile_name"
         android:hint="@string/profile"
-        android:paddingBottom="@dimen/edit_text_padding_bottom"
-        style="@style/EditText"/>
+        android:paddingBottom="@dimen/edit_text_padding_bottom"/>
 
     <Button
         android:id="@+id/button_sign_up"
+        style="@style/SignUpButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/image_profile_name"
         android:layout_marginTop="@dimen/button_sign_up_margin_top"
         android:background="@drawable/button_sign_up"
-        android:text="@string/button_sign_up"
-        style="@style/SignUpButton"/>
+        android:text="@string/button_sign_up"/>
 
     <TextView
         android:id="@+id/text_view_have_already_account"
+        style="@style/TextViewHaveAlreadyAccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="@dimen/have_already_account_margin"
-        style="@style/TextViewHaveAlreadyAccount"/>
+        android:layout_marginBottom="@dimen/have_already_account_margin"/>
 </RelativeLayout>

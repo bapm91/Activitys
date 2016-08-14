@@ -3,6 +3,7 @@
     <string name="action_settings">Settings</string>
     <string name="have_already_account">Have an account already?</string>
     <string name="first_activity">Sign Up</string>
+    <string name="second_activity">Task two</string>
     <string name="username">Username</string>
     <string name="profile">Profile name</string>
     <string name="pass">Password</string>
